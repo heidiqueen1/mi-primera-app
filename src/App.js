@@ -1,5 +1,6 @@
 import logo from './airplane.png';
 import './App.css';
+import TitleComponent from './components/TitleComponent';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Viaja por el mundo
         </a>
+        <TitleComponent/>
       </header>
     </div>
   );
